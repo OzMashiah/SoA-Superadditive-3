@@ -4,10 +4,11 @@
 import pandas as pd
 
 # Parameters - make sure to adjust before a new running environment/experiment!
-data_dir = "data/" # Specify where is the subjects data directory 
+data_dir = "Data/" # Specify where is the subjects data directory 
 data_dir_pattern = r'Sub(\d+)' # Specify the pattern of the naming for the results directories, used as regular expression.
 trials_file_pattern = r'Trials_sub*' # Specify the pattern of the naming for the trials files, used as regular expression.
 preprocessed_output_dir = 'Preprocessed/' # The output folder where you want the preprocessed csvs to be.
+models_predictions_dir = 'Models_pred/' # The folder with the models predictions mat files.
 spatial_alteration_levels = [0.1583, 0.2125, 0.2679] # Specify the levels of spatial alteration, only positive of each level.
 temporal_alteration_levels = [0.05, 0.072, 0.094] # Specify the levels of temporal alteration.
 subnum_translator_file = 'subnum_to_real_subnum.csv' # CSV containing the used sub id and the actual sub id. (e.g, 70011, 1)
