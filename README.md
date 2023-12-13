@@ -35,4 +35,4 @@ CSV containing the setup task number and the corresponding butterfly location.
 4) Run analysis.ipynb.
 
 > [!NOTE]
-> Change the num_trials in analysis.ipynb to 240 when looking at official experiment data, and 234 when looking at pilot data. :+1: 
+> Change the value of the 'n' (number of trials) variable in 4th cell that has the parameters for the information criteria calculations in analysis.ipynb to 240 when looking at official experiment data, and 234 when looking at pilot data. :+1: 
